@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Amir Hasan Khan</title>
+
+    <h3 class="col-md-12 p1 m-2"><marquee behavior="scroll" direction="left" scrollamount ="23">Welcome to my Page</marquee></h3>
+<h1 class="col-md-12 d-flex justify-content-center border rounded-pill p-1 m-1">Pagination</h1>
+<section class="pagination p-2 m-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <nav id="pgnav">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>  
+
+<h1 class="col-md-12 d-flex justify-content-center border border-danger rounded-3 p-1 m-2">Layers</h1>
+<section class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-12">
+            <div class="box">1.1</div>
+          </div>
+          <div class="col-md-7 col-sm-6 col-7">
+            <div class="box">1.2</div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-5">
+            <div class="box">1.3</div>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-8 d-sm-block d-none">
+            <div class="box lime">2.1</div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">2.2</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-md-block d-none">
+        <div class="red box">3</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="body">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-4 col-sm-9">
+            <div class="box">4.1</div>
+          </div>
+          <div class="col-sm-3 d-md-none">
+            <div class="box red">3</div>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="box">4.2</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-md-block d-none">
+        <div class="box five">5</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bar d-md-none d-sm-block d-none">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="box five">5</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">6</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h1 class="col-md-12 d-flex justify-content-center border border-danger rounded-3 p-1 m-2">Accordion</h1>
+<section class="container">
+  <div class="row">
+    <div class="col-md-12 m-2 p-2 d-flex justify-content-center">
+      <!-- accordion -->
+      <div class="accordion" id="accEx1">
+        <!-- item1 start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cOne" aria-expanded="true" aria-controls="cOne">
+            United States of America
+          </button>
+        </h2>
+        <div id="cOne" class="accordion-collapse collapse show" aria-labelledby="headOne" data-bs-parent="#accEx1">
+          <div class="accordion-body">
+            The United States of America (USA), commonly known as the United States (U.S. or US) or America, is a country primarily located in North America
+          </div>
+        </div>
+      </div>
+      <!--item1 end
+      item2 start -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cTwo" aria-expanded="false" aria-controls="cTwo">
+            United Kingdom
+          </button>
+        </h2>
+        <div id="cTwo" class="accordion-collapse collapse" aria-labelledby="headTwo" data-bs-parent="#accEx1">
+          <div class="accordion-body">
+            The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain, is a sovereign country in north-western Europe, off the north-­western coast of the European mainland.The United Kingdom includes the island of Great Britain
+          </div>
+        </div>
+      </div>
+    <!-- item2 end -->
+       <!-- item3 start -->
+       <div class="accordion-item">
+        <h2 class="accordion-header" id="headThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cTwo" aria-expanded="false" aria-controls="cThree">
+            United Kingdom
+          </button>
+        </h2>
+        <div id="cThree" class="accordion-collapse collapse" aria-labelledby="headThree" data-bs-parent="#accEx1">
+          <div class="accordion-body">
+            The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain, is a sovereign country in north-western Europe, off the north-­western coast of the European mainland.The United Kingdom includes the island of Great Britain
+          </div>
+        </div>
+      </div>
+      <!-- item3 end  -->
+    </div>
+    </div>
+  </div>
+</section> 
+
+<h1 class="col-md-12 d-flex justify-content-center border border-danger rounded-3 p-1 m-2">Carousel</h1>
+
+<section class="slider m-2 p-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- slider -->
+        <div id="caEx1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <!-- indicator -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#caEx1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#caEx1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#caEx1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#caEx1" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            </div>
+          <!-- indicator -->
+          <!-- inner -->
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img src="images/baby1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="images/baby2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="images/baby3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="images/baby4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Forth slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+          </div>
+           <!-- inner -->
+           <!-- controls -->
+           <button class="carousel-control-prev" type="button" data-bs-target="#caEx1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#caEx1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+           <!-- controls -->
+        </div>
+        <!-- slider -->        
+      </div>
+    </div>
+  </div>
+</section>
+
+<h1 class="col-md-12 d-flex justify-content-center border border-danger rounded-3 p-1 m-2">Card</h1>
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">Lorem ipsum dolor sit amet</div>
+        <img src="images/baby1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Lorem, ipsum dolor sit</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corporis. Veniam aliquid nobis vel </p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="card-link float-start">Link</a>
+          <a href="#" class="card-link float-end">Link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">Lorem ipsum dolor sit amet</div>
+        <img src="images/baby2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Lorem, ipsum dolor sit</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corporis. Veniam aliquid nobis vel </p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="card-link float-start">Link</a>
+          <a href="#" class="card-link float-end">Link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">Lorem ipsum dolor sit amet</div>
+        <img src="images/baby3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Lorem, ipsum dolor sit</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corporis. Veniam aliquid nobis vel </p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="card-link float-start">Link</a>
+          <a href="#" class="card-link float-end">Link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h1 class="col-md-12 d-flex justify-content-center border border-danger rounded-3 p-1 m-2">Modal</h1>
+<section class="container">
+  <div class="row">
+    <div class="col-md-12 m-3 p-2 d-flex justify-content-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Modal Button</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Amir Hasan Khan</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Warning
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h1 class="col-md-12 d-flex justify-content-center border border-danger rounded-3 p-1 m-2">Nav Tabs</h1>
+<ul class="nav d-flex justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="#">Link</a>
+  </li>
+</ul>
+
+
+
+    <!-- JS links -->
+  
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
